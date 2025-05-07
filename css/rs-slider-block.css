@@ -1,0 +1,16 @@
+.rs-slider-block {
+  overflow: hidden;
+}
+.rs-slider-block.rs-albom {
+  padding-top: 0px;
+}
+@media (max-width: 991.98px) {
+  .rs-slider-block__slider {
+    overflow: visible;
+  }
+}
+.rs-slider-block__slide {
+  min-height: 1px;
+  height: auto;
+  max-height: 415px;
+}

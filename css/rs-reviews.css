@@ -1,0 +1,115 @@
+.rs-reviews {
+  overflow: hidden;
+  margin-top: -10px;
+  padding-top: 10px;
+}
+@media (max-width: 991.98px) {
+  .rs-reviews__container .section-footer {
+    display: none;
+  }
+}
+@media (max-width: 991.98px) {
+  .rs-reviews__container .section-header__title p {
+    display: none;
+  }
+}
+.rs-reviews__slider {
+  overflow: visible;
+}
+.rs-reviews__slide {
+  min-height: 1px;
+  height: auto;
+}
+
+.rs-reviews__item {
+  padding: 30px;
+  background-color: #f2f4f9;
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+@media (max-width: 991.98px) {
+  .rs-reviews__item {
+    padding: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .rs-reviews__item {
+    padding: 16px;
+  }
+}
+.rs-reviews__desc {
+  margin-bottom: 23px;
+}
+.rs-reviews__desc p {
+  margin-top: 10px;
+}
+@media (max-width: 991.98px) {
+  .rs-reviews__desc p {
+    margin-top: 6px;
+  }
+}
+@media (max-width: 767.98px) {
+  .rs-reviews__desc p {
+    margin-top: 3px;
+  }
+}
+.rs-reviews__date {
+  display: inline-block;
+  border-radius: 41px;
+  margin-bottom: 23px;
+  padding: 5px 12px;
+  font-weight: 600;
+  font-size: 13px;
+  background: var(--primary-color);
+  line-height: 140%;
+  text-align: center;
+  color: #fff;
+}
+@media (max-width: 767.98px) {
+  .rs-reviews__date {
+    margin-bottom: 14px;
+  }
+}
+.rs-reviews__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: auto;
+}
+.rs-reviews__img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 48px;
+          flex: 0 0 48px;
+  height: 48px;
+  margin-right: 15px;
+}
+@media (max-width: 1439.98px) {
+  .rs-reviews__img {
+    margin-right: 8px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40px;
+            flex: 0 0 40px;
+    height: 40px;
+  }
+}
+.rs-reviews__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
